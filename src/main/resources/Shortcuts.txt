@@ -1,0 +1,11 @@
+Atajos
+
+Mayusc + Mayusc = buscar ficheros, clases, carpetas....
+control + e = muestra los ficheros de reciente accseso
+Control + d = duplica una linea
+Control + d = duplica una linea
+Mayus + control + flechas arriba o abajo = mueve texto
+control + tabulador = alterna entre 2 ultimos fichero
+mayusc + tabiulador = quita tabulacionç
+
+
