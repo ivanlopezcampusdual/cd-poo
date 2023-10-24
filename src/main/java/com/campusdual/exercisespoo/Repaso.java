@@ -8,6 +8,7 @@ public class Repaso {
         mostrar30NumerosPares();
         sumNumbers(100);
         calcularCuadrados();
+        contarLetras('V');
     }
     /*Sintaxis de for
      * El bucle for consta de 3 partes:
@@ -38,5 +39,18 @@ public class Repaso {
         for (int i = 1; i <= 20; i++) {
             System.out.print(i * i + " ");
         }
+    }
+
+    // construye un metodo que, recibiendo por parameotro una letra del abecedario muestre
+    // por pantalla cuantas letras le faltan hasta llegar a la Z (sin contar la Ñ)
+    public static void contarLetras(char letra) {
+        int contador = 0;
+        for (char i = letra; i <= 'Z'; i++) {
+            if (letra != 'Z') {
+                contador++;
+            }
+        }
+        System.out.println(" ");
+        System.out.println(contador);
     }
 }
